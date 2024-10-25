@@ -1,0 +1,13 @@
+prefix=/Users/DRepani/Documents/AIML/E2E/CALORIES_APP/venv
+exec_prefix=/Users/DRepani/Documents/AIML/E2E/CALORIES_APP/venv
+libdir=/Users/DRepani/Documents/AIML/E2E/CALORIES_APP/venv/lib
+sharedlibdir=/Users/DRepani/Documents/AIML/E2E/CALORIES_APP/venv/lib
+includedir=/Users/DRepani/Documents/AIML/E2E/CALORIES_APP/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

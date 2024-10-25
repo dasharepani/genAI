@@ -1,0 +1,5 @@
+#!/Users/DRepani/Documents/AIML/E2E/CALORIES_APP/venv/bin/python3.10
+
+import pydoc
+if __name__ == '__main__':
+    pydoc.cli()

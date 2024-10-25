@@ -1,0 +1,11 @@
+prefix=/Users/DRepani/Documents/AIML/E2E/CALORIES_APP/venv
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/Users/DRepani/Documents/AIML/E2E/CALORIES_APP/venv/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.3
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}
